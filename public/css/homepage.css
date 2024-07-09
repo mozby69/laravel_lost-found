@@ -1,0 +1,49 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: 
+        url("../images/s.jpg") no-repeat center center fixed,
+        rgba(50, 50, 50, 0.9); /* Add a background color */
+    background-size: cover; /* Ensure the width is 100% while maintaining aspect ratio */
+    background-position: center;
+    background-attachment: fixed; /* Ensure the background stays fixed */
+    background-blend-mode: overlay; /* Apply blend mode */
+    background-color: rgba(50, 50, 50, 0.9); /* Set a background color to blend with the image */
+    
+
+}
+@font-face {
+    font-family: 'Advent Pro';  /* Replace with your downloaded font name */
+    src: url('../fonts/static/AdventPro-Bold.ttf') format('truetype'); /* Path to your font file */
+    font-weight: 400;  /* Optional: Specify font weight */
+    font-style: normal;  /* Optional: Specify font style */
+  }
+
+.first-hero-title{
+    font-family: 'Advent Pro';
+}  
+
+.buttons button{
+    padding:.8rem 1.8rem;
+    background-color: transparent;
+    border:2px solid white;
+    color:white;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.buttons button a{
+    color:white;
+    text-decoration: none;
+}
+
+.buttons button a:hover{
+    color:yellow;
+    
+}
